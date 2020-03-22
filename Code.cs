@@ -1,19 +1,12 @@
    static void Main(string[] args)
         {
-
-
-
-
             bool isAnyWin = false;
             bool firstPlayerTurn = false;
             bool secondPlayerTurn = false;
             //SetTurns(ref firstPlayerTurn, ref secondPlayerTurn);
 
             Random random = new Random();
-            //int rNumber = random.Next(1, 100);
-           
-
-          
+            //int rNumber = random.Next(1, 100);                 
             for (int i = 0; i < 5000; i++)
             {
                 int firstPlayerI = 0;
@@ -139,49 +132,7 @@
                             Console.WriteLine("Я выиграл !");
                             break;
                         }
-                    }
-
-                    //for (int i = 0; i < 100; i++)
-                    //{
-
-                    //    if (firstPlayerTurn)
-                    //    {
-                    //        if (myCards.Any() && myFriendCards.Any())
-                    //        {
-                    //            AttackCard(myCards[i], myFriendCards[random.Next(0, myFriendCards.Count() - 1)]);
-                    //        }
-                    //        else
-                    //        {
-                    //            if (myCards.Count() == 0)
-                    //            {
-                    //                Console.WriteLine("Я выиграл !");
-                    //                break;
-                    //            }
-                    //            else if (myFriendCards.Count() == 0)
-                    //            {
-                    //                Console.WriteLine("Друг выиграл !");
-                    //                break;
-                    //            }
-                    //        }
-                    //        if (myCards[i].Health <= 0)
-                    //        {
-
-                    //            myCards.Remove(myCards[i]);
-                    //            i--;
-                    //        }
-                    //        if (myFriendCards[i].Health <= 0)
-                    //        {
-
-                    //            myFriendCards.Remove(myFriendCards[i]);
-                    //            i--;
-                    //        }
-
-                    //        //firstPlayerTurn = false;
-                    //    }
-
-                    //}
-                }
-                //
+                    }                  
+                } 
             }
-            Console.WriteLine("Hello World!");
         }
